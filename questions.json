@@ -1,0 +1,26 @@
+[
+    {
+        "category": "Tarix",
+        "question": "Buyuk Ipak yo'li qaysi qit'alarni bog'lagan?",
+        "options": ["Osiyo va Yevropa", "Afrika va Amerika", "Avstraliya va Antarktida", "Shimoliy va Janubiy Amerika"],
+        "correct": 0
+    },
+    {
+        "category": "Tarix",
+        "question": "Qadimgi Xorazm poytaxti qaysi shahar bo'lgan?",
+        "options": ["Tuproqqal'a", "Afrasiyob", "Varaxsha", "Poykent"],
+        "correct": 0
+    },
+    {
+        "category": "Tarix",
+        "question": "Temuriylar davrida asos solingan rasadxona qaysi hukmdor nomiga bog'liq?",
+        "options": ["Mirzo Ulug'bek", "Amir Temur", "Husayn Boyqaro", "Zahiriddin Muhammad Bobur"],
+        "correct": 0
+    },
+    {
+        "category": "Tarix",
+        "question": "Qaysi yilda O'zbekiston Respublikasi o'z Mustaqilligini e'lon qildi?",
+        "options": ["1991-yil 31-avgust", "1990-yil 1-sentabr", "1991-yil 1-sentabr", "1992-yil 8-dekabr"],
+        "correct": 2
+    }
+]
