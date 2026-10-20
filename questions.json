@@ -23,4 +23,65 @@
         "options": ["1991-yil 31-avgust", "1990-yil 1-sentabr", "1991-yil 1-sentabr", "1992-yil 8-dekabr"],
         "correct": 2
     }
+][
+    {
+        "category": "5-sinf Tarix",
+        "question": "Ilk ibtidoiy odamlar Tosh davrida mehnat qurollarini dastlab nimadan yasashgan?",
+        "options": ["Tosh va yog'och", "Temir va mis", "Bronza", "Loyi va qum"],
+        "correct": 0
+    },
+    {
+        "category": "6-sinf O'zbekiston tarixi",
+        "question": "Qadimgi Baqtriya davlati qaysi daryo havzasida joylashgan edi?",
+        "options": ["Amudaryo", "Sirdaryo", "Zarafshon", "Sirdaryo va Chirchiq"],
+        "correct": 0
+    },
+    {
+        "category": "6-sinf Jahon tarixi",
+        "question": "Qadimgi Misrda ehromlar (piramidalar) asosan kimlar uchun qurilgan?",
+        "options": ["Fironlar uchun", "Dehqonlar uchun", "Hunarmandlar uchun", "Saroy amaldorlari uchun"],
+        "correct": 0
+    },
+    {
+        "category": "7-sinf O'zbekiston tarixi",
+        "question": "Amir Temur davlatining poytaxti qaysi shahar edi?",
+        "options": ["Samarqand", "Buxoro", "Toshkent", "Shahrisabz"],
+        "correct": 0
+    },
+    {
+        "category": "7-sinf Jahon tarixi",
+        "question": "Yevropada Uyg'onish davri (Renessans) vatani qaysi davlat hisoblanadi?",
+        "options": ["Italiya", "Fransiya", "Angliya", "Ispaniya"],
+        "correct": 0
+    },
+    {
+        "category": "8-sinf O'zbekiston tarixi",
+        "question": "Xorazmda XIX asrda hukmronlik qilgan sulola qaysi?",
+        "options": ["Qo'ng'irotlar", "Mang'itlar", "Minaklar", "Temuriylar"],
+        "correct": 0
+    },
+    {
+        "category": "8-sinf Jahon tarixi",
+        "question": "Fransiyada Buyuk burjua inqilobi qaysi yilda boshlangan?",
+        "options": ["1789-yil", "1812-yil", "1705-yil", "1848-yil"],
+        "correct": 0
+    },
+    {
+        "category": "9-sinf O'zbekiston tarixi",
+        "question": "Turkiston general-gubernatorligi qaysi yilda tuzilgan?",
+        "options": ["1867-yil", "1876-yil", "1885-yil", "1895-yil"],
+        "correct": 0
+    },
+    {
+        "category": "10-sinf O'zbekiston tarixi",
+        "question": "O'zbekistonda ilk temir yo'l (Kavkazoldi yoki Transkaspiy) qachon qurila boshlandi?",
+        "options": ["1880-yillar", "1905-yil", "1917-yil", "1924-yil"],
+        "correct": 0
+    },
+    {
+        "category": "11-sinf O'zbekiston tarixi",
+        "question": "O'zbekiston Respublikasining Konstitutsiyasi nechanchi yilda qabul qilingan?",
+        "options": ["1992-yil 8-dekabr", "1991-yil 31-avgust", "1993-yil 2-iyul", "1995-yil 31-avgust"],
+        "correct": 0
+    }
 ]
