@@ -1,13 +1,15 @@
 import asyncio
 import logging
 import random
+import os
+from aiohttp import web
 from aiogram import Bot, Dispatcher, F, types
 from aiogram.filters import CommandStart, Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 
 from database import init_db, add_user, get_user, add_points, get_top_users
 
-BOT_TOKEN = "8624524867:AAHIbYmTgvaFNrwM74UC7BU7IA-Tetw5YS4"
+BOT_TOKEN = os.environ.get("BOT_TOKEN") # Render'dagi Environment variable'dan o'qiydi
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
@@ -192,9 +194,26 @@ async def profile(callback: CallbackQuery):
 async def main_menu(callback: CallbackQuery):
     await callback.message.edit_text("Asosiy menyu:", reply_markup=main_menu_keyboard())
 
+# Render uchun kichik veb-server (Port talabini bajarish uchun)
+async def handle(request):
+    return web.Response(text="Bot is running!")
+
+async def start_web_server():
+    app = web.Application()
+    app.add_routes([web.get('/', handle)])
+    runner = web.AppRunner(app)
+    await runner.setup()
+    port = int(os.environ.get("PORT", 8080))
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+
 async def main():
     logging.basicConfig(level=logging.INFO)
     init_db()
+    
+    # Veb-serverni ishga tushiramiz (Render port talabini qondirish uchun)
+    await start_web_server()
+    
     print("Bot va Baza ishga tushdi...")
     await dp.start_polling(bot)
 
